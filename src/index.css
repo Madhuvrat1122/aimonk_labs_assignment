@@ -1,0 +1,109 @@
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  background: #f6f7fb;
+  padding: 24px;
+  color: #111;
+}
+
+.app {
+  max-width: 900px;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1 {
+  margin: 0;
+}
+
+.export-btn {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.export-btn:hover {
+  opacity: 0.9;
+}
+
+.tag {
+  border: 1px solid #ddd;
+  background: white;
+  border-radius: 8px;
+  padding: 8px;
+  margin: 10px 0;
+}
+
+.tag-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.collapse-btn {
+  border: 1px solid #ccc;
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.tag-name {
+  background: #e6f0ff;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.name-input {
+  padding: 5px 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.control-btn {
+  margin-left: auto;
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background: #fff;
+  cursor: pointer;
+}
+
+.tag-body {
+  margin-left: 36px;
+  margin-top: 8px;
+}
+
+.data-input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.export-section {
+  margin-top: 20px;
+}
+
+.export-section textarea {
+  width: 100%;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-family: monospace;
+}
+
+footer {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #666;
+}
